@@ -4,7 +4,7 @@ import Button from './components/Button';
 function App() {
   return (
     <div className="App">
-      <div className='buttons'>
+    <div className='buttons'>
        <Button size="large">Button</Button>
        <Button>Button</Button>
        <Button size="small">Button</Button>
@@ -18,6 +18,11 @@ function App() {
        <Button size="large" color="pink">Button</Button>
        <Button color="pink">Button</Button>
        <Button size="small" color="pink">Button</Button>
+     </div>
+     <div className='buttons'>
+       <Button size="large" color="blue" outline>Button</Button>
+       <Button color="gray" outline>Button</Button>
+       <Button size="small" color="pink" outline>Button</Button>
      </div>
     </div>
   );
