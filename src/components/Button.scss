@@ -42,4 +42,8 @@ $blue: #228be6;
   &:active {
     background: darken($blue, 10%);
   }
+  & + & {
+    // 이건 .Button + .Button 즉 버튼 옆의 버튼.
+    margin-left: 1rem;
+  }
 }
