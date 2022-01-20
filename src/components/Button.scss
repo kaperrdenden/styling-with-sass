@@ -105,4 +105,12 @@ $pink: #f06595;
     // 이건 .Button + .Button 즉 버튼 옆의 버튼.
     margin-left: 1rem;
   }
+  &.fullWidth {
+    width: 100%;
+    justify-content: center;
+    & + & {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
 }

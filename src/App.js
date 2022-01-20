@@ -24,6 +24,11 @@ function App() {
        <Button color="gray" outline>Button</Button>
        <Button size="small" color="pink" outline>Button</Button>
      </div>
+     <div className='buttons'>
+       <Button size="large" color="blue" fullWidth>Button</Button>
+       <Button color="gray" fullWidth>Button</Button>
+       <Button size="small" color="pink" fullWidth>Button</Button>
+     </div>
     </div>
   );
 }
