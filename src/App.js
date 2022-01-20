@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
     <div className='buttons'>
-       <Button size="large">Button</Button>
+       <Button size="large" onClick={() => console.log('클릭됐다!')}>Button</Button>
        <Button>Button</Button>
        <Button size="small">Button</Button>
      </div>
